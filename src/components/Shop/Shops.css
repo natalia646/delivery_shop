@@ -1,0 +1,7 @@
+
+.shopButton{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+   cursor: pointer;
+}
