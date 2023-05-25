@@ -1,15 +1,15 @@
 import "./App.css";
 import Navigation from "./components/Navigation/Navigation";
-import Cart from "./components/Shop/Products/Cart";
-import Shops from "./components/Shop/Shops";
+import Carts from "./components/Shop/Products/Carts";
+import Shops from "./components/Shop/Shops/Shops";
 
 function App() {
   return (
     <div>
       <Navigation />
-      <div>
+      <div className="padeShop" >
         <Shops />
-        <Cart />
+        <Carts />
       </div>
     </div>
   );
